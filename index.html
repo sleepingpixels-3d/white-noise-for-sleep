@@ -5,57 +5,48 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>White Noise for Sleep</title>
 <meta name="description" content="White noise for deep sleep relaxation and focus">
-<style>
-body {
-  margin 0;
-  font-family Arial, sans-serif;
-  background #f7f9fc;
-  color #333;
-}
-header {
-  background #4a90e2;
-  padding 40px 20px;
-  text-align center;
-  color white;
-}
-section {
-  max-width 900px;
-  margin 0 auto;
-  padding 40px 20px;
-}
-button {
-  background #4a90e2;
-  border none;
-  color white;
-  padding 15px 30px;
-  font-size 18px;
-  border-radius 8px;
-  cursor pointer;
-}
-footer {
-  background #ddd;
-  text-align center;
-  padding 20px;
-  font-size 14px;
-}
-</style>
+<!-- Tailwind CSS CDN -->
+<link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
 </head>
-<body>
+<body class="bg-gray-100 text-gray-800">
 
-<header>
-  <h1>White Noise for Sleep</h1>
-  <p>Calm your mind and fall asleep naturally</p>
+<header class="bg-blue-600 p-10 text-center text-white">
+  <h1 class="text-3xl font-bold">White Noise for Sleep</h1>
+  <p class="mt-2">Calm your mind and fall asleep naturally</p>
 </header>
 
-<section>
-  <button onclick="playSound()">Play White Noise</button>
+<section class="max-w-2xl mx-auto p-10">
+  <button onclick="playSound()" class="bg-blue-600 text-white px-8 py-4 text-lg rounded hover:bg-blue-700 transition">
+    Play White Noise
+  </button>
 
-  <p>
-White noise for sleep is a simple and effective way to improve rest, relaxation, and overall wellbeing. This website was created to help people fall asleep faster, stay asleep longer, and enjoy a calmer night without distractions. White noise works by producing a consistent sound that gently masks sudden changes in the environment such as traffic, voices, or background activity. When the brain hears a steady sound, it becomes less reactive to interruptions, making it easier to relax and drift into deep sleep. Many people use white noise to support better bedtime routines, reduce stress, and create a peaceful atmosphere at home. It is also helpful for babies, children, students, and anyone who struggles with focus or concentration. You can listen directly from your browser without installing anything or creating an account. The sound is designed to be smooth, balanced, and comfortable for long listening sessions. Whether you are trying to sleep, meditate, read, or work, white noise can help create a sense of calm and stability. Use headphones or speakers and adjust the volume to a comfortable level. Make this sound part of your nightly routine and allow your body and mind to unwind naturally.
+  <p class="mt-4 leading-7">
+    White noise for sleep is a simple and effective way to improve rest, relaxation, and overall wellbeing. This website was created to help people fall asleep faster, stay asleep longer, and enjoy a calmer night without distractions. White noise works by producing a consistent sound that gently masks sudden changes in the environment such as traffic, voices, or background activity. 
+    When the brain hears a steady sound, it becomes less reactive to interruptions, making it easier to relax and drift into deep sleep. Many people use white noise to support better bedtime routines, reduce stress, and create a peaceful atmosphere at home. 
+  </p>
+    
+  <p class="mt-4 leading-7">
+    It is also helpful for babies, children, students, and anyone who struggles with focus or concentration. You can listen directly from your browser without installing anything or creating an account. The sound is designed to be smooth, balanced, and comfortable for long listening sessions. 
+    Whether you are trying to sleep, meditate, read, or work, white noise can help create a sense of calm and stability. Use headphones or speakers and adjust the volume to a comfortable level. Make this sound part of your nightly routine and allow your body and mind to unwind naturally.
+  </p>
+
+  <p class="mt-4 leading-7">
+    Research indicates that white noise can be beneficial for improving sleep quality. Many people experience a more restful sleep when they use it, as it helps drown out disruptive noises that might otherwise be bothersome. People who live in urban areas, where noise pollution is prevalent, often find white noise especially useful for achieving a more restful night. 
+    Additionally, parents can use white noise to help soothe infants and toddlers, creating a calming environment that promotes sleep. This consistent background noise can also make it easier for parents to fall asleep as they no longer have to listen for every small sound that might wake them up.
+  </p>
+
+  <p class="mt-4 leading-7">
+    Furthermore, white noise is not just limited to sleep; it can improve focus during work or study sessions by blocking out distracting sounds. It's commonly used in offices and shared workspaces to promote concentration. The soothing sounds can create an atmosphere that enhances productivity, making it easier to stay engaged and focused on tasks.
+    Many users have reported that they now rely on white noise for relaxation techniques, using it during yoga or meditation sessions to help focus their minds. The calming effects can lead to reduced anxiety and a more positive mindset, contributing to overall mental wellbeing.
+  </p>
+
+  <p class="mt-4 leading-7">
+    By incorporating white noise into your environment, you may also experience improved cognitive function and creativity. Some studies suggest that a consistent auditory backdrop can foster a sense of familiarity and safety, leading to higher levels of creativity. 
+    So whether you're battling insomnia, seeking a study aid, or simply trying to find some peace in a busy world, consider making white noise a part of your daily soundscape. It is a versatile tool that can adapt to various needs and promote a healthier lifestyle.
   </p>
 </section>
 
-<footer>
+<footer class="bg-gray-300 text-center p-5 text-sm">
   © 2026 White Noise for Sleep
 </footer>
 
@@ -67,17 +58,8 @@ function playSound() {
 }
 </script>
 
-        <script data-goatcounter="https://goatestgit.goatcounter.com/count"
-        async src="//gc.zgo.at/count.js"></script>
-
+<script data-goatcounter="https://goatestgit.goatcounter.com/count"
+async src="//gc.zgo.at/count.js"></script>
 
 </body>
-</html>
-
-
-
-
-
-
-
-
+</html
